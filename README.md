@@ -11,7 +11,9 @@ Below are the methods for installing this plugin automatically using command lin
 
 ### Adobe PhoneGap Build Service
 
-<code><plugin spec="https://github.com/MiiNoe879/phonegap_amazon_push.git" source="git" /></code>
+```js
+<plugin spec="https://github.com/MiiNoe879/phonegap_amazon_push.git" source="git" />
+```
 You will be able to replace as your git repository.
 
 ### Cordova
