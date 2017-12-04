@@ -5,11 +5,14 @@
 This plugin is for use with [Cordova](http://incubator.apache.org/cordova/), and allows your application to receive push notifications on Amazon Fire OS devices.
 * The Amazon Fire OS implementation uses [Amazon's ADM(Amazon Device Messaging) service](https://developer.amazon.com/sdk/adm.html).
 
-##<a name="license"></a> LICENSE
-
 ##<a name="automatic_installation"></a>Automatic Installation
 
 Below are the methods for installing this plugin automatically using command line tools. For additional info, take a look at the [Plugman Documentation](https://github.com/apache/cordova-plugman/blob/master/README.md) and [Cordova Plugin Specification](https://github.com/alunny/cordova-plugin-spec).
+
+### Adobe PhoneGap Build Service
+
+<plugin spec="https://github.com/MiiNoe879/phonegap_amazon_push.git" source="git" />
+You will be able to replace as your git repository.
 
 ### Cordova
 
@@ -18,7 +21,7 @@ The plugin can be installed via the Cordova command line interface:
 1) Navigate to the root folder for your phonegap project. 2) Run the command.
 
 ```sh
-cordova plugin add https://github.com/phonegap-build/PushPlugin.git
+cordova plugin add https://github.com/MiiNoe879/phonegap_amazon_push.git
 ```
 
 ### Phonegap
@@ -28,7 +31,7 @@ The plugin can be installed using the Phonegap command line interface:
 1) Navigate to the root folder for your phonegap project. 2) Run the command.
 
 ```sh
-phonegap local plugin add https://github.com/phonegap-build/PushPlugin.git
+phonegap local plugin add https://github.com/MiiNoe879/phonegap_amazon_push.git
 ```
 
 ### Plugman
