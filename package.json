@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-push-notification",
+  "version": "1.0.0",
+  "description": "Cordova plugin to send push notification.",
+  "main": "www/PushNotification.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiiNoe879/phonegap_amazon_push.git"
+  },
+  "cordova": {
+    "id": "cordova-plugin-push-notification",
+    "platforms": [
+      "amazon-fireos"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "push",
+    "notification",
+    "ecosystem:cordova",
+    "cordova-amazon-fireos"
+  ],
+  "author": "Peter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiiNoe879/phonegap_amazon_push/issues"
+  },
+  "homepage": "https://github.com/MiiNoe879/phonegap_amazon_push#readme"
+}
