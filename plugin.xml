@@ -47,7 +47,7 @@
                 <intent-filter>
                     <action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
                     <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
-                    <category android:name="uk.co.twowaymedia.twowords.touch." />
+                    <category android:name="uk.co.twowaymedia.twowords.touch" />
                 </intent-filter>
             </receiver>
         </config-file>
